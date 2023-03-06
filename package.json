@@ -1,0 +1,17 @@
+{
+  "name": "bakersoft-task",
+  "version": "1.0.0",
+  "description": "ParaBank Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/cypress run",
+    "headTest": "npm run test -- --headed"
+  },
+  "author": "Varun Gupta",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^12.7.0",
+    "typescript": "^4.9.5"
+  }
+}
